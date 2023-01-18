@@ -1,5 +1,5 @@
 footer {
-	background-color: rgba($color--primary,0.8);
+	background-color: rgba($color--black,0.75);
 	padding: $padding--general*3 0;
 	i {
 		color: $color--white;
@@ -39,13 +39,14 @@ footer {
 		padding-right: $padding--general*2;
 	}
 	& p.atm__copyright {
+		color: rgba($color--white,0.5);
  		margin-top: 80px;
   		font-size: 0.8rem;
 	}
 }
 
 .mol__unit-contact {
-  border-top: solid 1px $color--highlight-dark;
+  border-top: solid 1px $color--secondary;
   padding-top: $padding--small;
   margin-bottom: $margin--small*3;
   color: white;
@@ -54,7 +55,7 @@ footer {
   }
   & h4 {
   	@include headingUC;
-  	color: $color--secondary;
+  	color: $color--primary;
   	font-size: 0.9rem;
   	margin-bottom: 8px;
   }
