@@ -11,7 +11,7 @@
                     <div class="col-12 col-md-6">
                         <div class="mol__unit-whoweare">
 							<p><?php the_field('f_con_text', 'option'); ?></p>
-						 	<p class="atm__copyright"><?php the_field('f_con_copyright', 'option'); ?></p>
+						 	<p class="atm__copyright">&copy;&nbsp;<?php echo date('Y'); ?>&nbsp;<?php the_field('f_con_copyright', 'option'); ?></p>
 						</div>
 					</div>
 					<div class="col-12 col-md-6 col-lg-3">
