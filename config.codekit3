@@ -111,11 +111,21 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/images\/logo-greenhouse-v2.svg" : {
+    "\/assets\/images\/logo-greenhouse-v3.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets\/images\/logo-greenhouse-v2.svg",
+      "oAP" : "\/assets\/images\/logo-greenhouse-v3.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/images\/logo-greenhouse-wh.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/images\/logo-greenhouse-wh.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,

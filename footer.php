@@ -10,6 +10,7 @@
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <div class="mol__unit-whoweare">
+                        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-greenhouse-wh.svg" alt="robingreen.house logo">
 							<blockquote>&ldquo;<?php the_field('f_con_quote', 'option'); ?>&rdquo;
 								<cite><?php the_field('f_con_quote_cite', 'option'); ?>
 									<span class="context"><?php the_field('f_con_quote_cite_con', 'option'); ?></span>

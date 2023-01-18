@@ -69,6 +69,11 @@ body {
 a {
   transition: 0.3s; }
 
+body {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
 h2 {
   color: #CDFF11;
   font-size: 4rem; }
@@ -337,11 +342,15 @@ footer {
   footer a {
     color: #fff; }
     footer a:hover {
-      color: #0DCCC6; }
+      color: #CDFF11; }
     footer a i {
       transition: 0.3s; }
       footer a i:hover {
-        color: #0DCCC6; }
+        color: #CDFF11; }
+
+.mol__unit-whoweare img {
+  height: 60px;
+  margin-bottom: 10px; }
 
 .mol__unit-whoweare p {
   font-size: 2rem;

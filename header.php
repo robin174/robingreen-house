@@ -67,4 +67,4 @@
 				</div> 
 			</nav> 
 		</header>
-		<main>
+		<main style="background-color: rgba(0,0,0,<?php the_field('bg_overlay_value','option'); ?>);">
