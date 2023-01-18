@@ -102,13 +102,13 @@ footer blockquote {
     margin-top: 10px;
     font-size: 1.4rem;
     line-height: 1.5;
-    color: #0DCCC6; }
+    color: #CDFF11; }
     footer blockquote cite span.context {
       margin-top: 5px;
       display: block;
       font-size: 0.9rem;
       line-height: 1.2;
-      color: #0DCCC6; }
+      color: #CDFF11; }
 
 a[class*="atm--button-"] {
   text-decoration: none; }
