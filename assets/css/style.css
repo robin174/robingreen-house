@@ -66,6 +66,10 @@ body {
 /* Larger than small tablet */
 /* Larger than tablet */
 /* Larger than desktop */
+@media (min-width: 1400px) {
+  .container-fluid {
+    padding: 0 180px; } }
+
 a {
   transition: 0.3s; }
 
@@ -253,6 +257,10 @@ nav {
     .offcanvas.offcanvas-end li.current-menu-item a, .offcanvas.offcanvas-end li.current-menu-item:hover a {
       color: #0DCCC6; } }
 
+.mol--page-main {
+  padding: 100px 0; }
+
+/* check everything under here */
 .org--profile-header .container-fluid {
   padding: 0; }
 
@@ -327,7 +335,7 @@ p.atm--profile-details {
       font-family: "AvertaStdPE-Regular", Arial, Helvetica, sans-serif; }
 
 footer {
-  background-color: rgba(0, 15, 0, 0.75);
+  background-color: rgba(0, 15, 0, 0.85);
   padding: 6rem 0; }
   footer i {
     color: #fff;

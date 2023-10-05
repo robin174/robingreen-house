@@ -17,6 +17,12 @@
 @media (min-width: 1200px) {}
 
 
+@media (min-width: 1400px) {
+	.container-fluid {
+		padding: 0 180px;
+	}
+}
+
 
 a {
 	transition: 0.3s;

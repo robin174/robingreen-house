@@ -111,16 +111,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/images\/logo-greenhouse-v3.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/images\/logo-greenhouse-v3.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
     "\/assets\/images\/logo-greenhouse-wh.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -130,6 +120,32 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/assets\/images\/logo-tall-rgh.png" : {
+      "ft" : 32768,
+      "iS" : 5744,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/logo-tall-rgh.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/words-wide-iaas.png" : {
+      "ft" : 32768,
+      "iS" : 4937,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/words-wide-iaas.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/assets\/scss\/base\/_all.scss" : {
       "aP" : 0,
@@ -434,6 +450,14 @@
       "oAP" : "\/index.php",
       "oF" : 0
     },
+    "\/page-home.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/page-home.php",
+      "oF" : 0
+    },
     "\/page-profile.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -478,6 +502,18 @@
       "oA" : 0,
       "oAP" : "\/single.php",
       "oF" : 0
+    },
+    "\/style-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/style-min-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/style.css" : {
       "aP" : 1,

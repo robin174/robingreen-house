@@ -6,7 +6,7 @@
 ?>
 		</main><!-- end main -->
 		<footer>
-			<div class="container">
+			<div class="container-fluid">
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <div class="mol__unit-whoweare">
@@ -38,27 +38,27 @@
 							<h4>Social</h4>
 							<!-- Facebook -->
 							<?php if( get_field('f_con_facebook', 'option') ): ?>
-								<a href="<?php the_field('f_con_facebook', 'option'); ?>" title="<?php bloginfo( 'name' ); ?> on Facebook" target="_blank"><i class="fab fa-2x fa-facebook"></i></a>
+								<a href="<?php the_field('f_con_facebook', 'option'); ?>" title="<?php bloginfo( 'name' ); ?> on Facebook" target="_blank"><i class="fa-brands fa-lg fa-facebook"></i></a>
 							<?php else: ?>
-								<i class="fab fa-2x fa-facebook inactive"></i>
+								<i class="fa-brands fa-lg fa-facebook inactive"></i>
 							<?php endif; ?>
 							<!-- Twitter -->
 							<?php if( get_field('f_con_twitter', 'option') ): ?>
-								<a href="<?php the_field('f_con_twitter', 'option'); ?>" title="<?php bloginfo( 'name' ); ?> on Twitter" target="_blank"><i class="fab fa-2x fa-twitter"></i></a>
+								<a href="<?php the_field('f_con_twitter', 'option'); ?>" title="<?php bloginfo( 'name' ); ?> on Twitter" target="_blank"><i class="fa-brands fa-lg fa-x-twitter"></i></a>
 							<?php else: ?>
-								<i class="fab fa-2x fa-twitter inactive"></i>
+								<i class="fa-brands fa-lg fa-x-twitter inactive"></i>
 							<?php endif; ?>
 							<!-- Instagram -->
 							<?php if( get_field('f_con_instagram', 'option') ): ?>
-								<a href="<?php the_field('f_con_instagram', 'option'); ?>" title="<?php bloginfo( 'name' ); ?> on Instagram" target="_blank"><i class="fab fa-2x fa-instagram"></i></a>
+								<a href="<?php the_field('f_con_instagram', 'option'); ?>" title="<?php bloginfo( 'name' ); ?> on Instagram" target="_blank"><i class="fa-brands fa-lg fa-instagram"></i></a>
 							<?php else: ?>
-								<i class="fab fa-2x fa-instagram inactive"></i>
+								<i class="fa-brands fa-lg fa-instagram inactive"></i>
 							<?php endif; ?>
 							<!-- LinkedIn -->
 							<?php if( get_field('f_con_linkedin', 'option') ): ?>
-								<a href="<?php the_field('f_con_linkedin', 'option'); ?>" title="<?php bloginfo( 'name' ); ?> on LinkedIn" target="_blank"><i class="fab fa-2x fa-linkedin"></i></a>
+								<a href="<?php the_field('f_con_linkedin', 'option'); ?>" title="<?php bloginfo( 'name' ); ?> on LinkedIn" target="_blank"><i class="fa-brands fa-lg fa-linkedin"></i></a>
 							<?php else: ?>
-								<i class="fab fa-2x fa-linkedin inactive"></i>
+								<i class="fa-brands fa-lg fa-linkedin inactive"></i>
 							<?php endif; ?>
 						</div>
 					</div>

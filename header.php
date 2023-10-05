@@ -28,7 +28,7 @@
 	<body <?php body_class(); ?> style="background:url(<?php the_field('bg_image','option'); ?>;">
 		<header> 
 			<nav class="navbar navbar-expand-md navbar-offcanvas"> 
-				<div class="container">
+				<div class="container-fluid">
 					<?php if ( is_front_page() && is_home() ) : ?>
 						<h1><?php bloginfo( 'name' ); ?></h1>
 					<?php else : ?>
@@ -42,6 +42,7 @@
 					</button>
 					*/ ?>
 
+					<?php /*
 					<div class="d-md-none">
 						<button class="btn btn-primary atmButtonNav" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fas fa-bars"></i></button>
 					</div>
@@ -55,6 +56,7 @@
 							<?php robingreenhouse_nav(); ?>
 					    </div>
 					</div>
+					*/ ?>
 					
 					<?php /*
 						1. Set wrapper 
